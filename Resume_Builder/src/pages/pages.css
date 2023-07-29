@@ -1,0 +1,162 @@
+:where(*, *::before, *::after) {
+   
+    border-style: none !important;
+}
+.head_text{
+    margin-bottom: 30px;
+    font-size: 14px;
+    color:#808080 ;
+}
+/* personal details */
+.css-mxa4qn{
+    padding: 0 !important;
+}
+/* --------------- */
+.dl_hover:hover{   
+ background: white !important;
+}
+
+.ql-toolbar.ql-snow{
+    background: #EFF2F9 !important;
+}
+
+.input_design{
+    padding: 12px 16px !important;
+}
+
+.emp_his-accordian_head{
+    background-color: rgb(255, 255, 255) !important;
+}
+.emp_his-accordian_head:hover{
+    background-color: rgb(255, 255, 255) !important;
+}
+.emp_his-accordian{
+    padding:20px 10px  !important;
+    border: 1px solid rgb(231, 234, 244) !important;
+    background-color: rgb(255, 255, 255) !important;
+}
+.emp_his-accordian_head:hover {
+   color:#0099e6;
+}
+.emp_his-acc_input{
+    background-color: #EFF2F9!important;
+    padding: 15px !important;
+    height: 50px !important; 
+    border-radius: 3px !important;
+}
+.emp_his-acc_textarea{
+    border-radius: 0 !important;
+ background-color: #EFF2F9!important;
+    padding: 15px !important;
+    min-height: 120px !important; 
+}
+.emp_his-button{
+    margin-top:20px;   
+}
+.emp_button{
+ background: white !important;
+ margin-top:15px;
+}
+.emp_button:hover{
+    background:#EFF2F9 !important;
+}
+.btn-emp_his{
+    background: #0099e6 !important;
+    margin-left: 15px;
+    color:#EFF2F9 !important;
+    size: 20px !important;
+}
+.del_btn{
+    font-size: 14px !important;
+    margin-left: 8px;
+    color:#808080 !important;
+    cursor: pointer;
+}
+.del_btn:hover,
+.icn_hov:hover{
+    color:#0099e6 !important;
+}
+/* ---------------------------- Add Section -------------------------------*/
+.icon_box {
+    position: relative;
+    left: -4px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.custom_icon,
+.course_icon,
+.eca_icon,
+.intern_icon,
+.hobby_icon,
+.lang_icon,
+.ref_icon
+{
+    display: flex;
+    flex-flow: row nowrap;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-bottom: 12px;
+    user-select: none;
+    width: calc(50% - 32px);
+    flex: 0 0 calc(50% - 32px);
+    margin-right: 32px;
+    cursor: pointer;
+    color: rgb(30, 37, 50);
+}
+.custom_icon::before,
+.course_icon::before,
+.eca_icon::before,
+.intern_icon::before,
+.hobby_icon::before,
+.lang_icon::before,
+.ref_icon::before
+{
+    content: "";
+    margin-right: 8px;
+    display: block;
+    width: 40px;
+    height: 40px;
+  
+}
+.custom_icon::before{
+    background-image: url(../assets/img/Custom\ Section.svg);
+}
+.course_icon::before {
+    background-image: url(../assets/img/Course.svg);
+}
+.eca_icon::before {
+    background-image: url(../assets/img/eca.svg);
+}
+.intern_icon::before {
+    background-image: url(../assets/img/Internship.svg);
+}
+.hobby_icon::before {
+    background-image: url(../assets/img/Hobbies.svg);
+}
+.lang_icon::before {
+    background-image: url(../assets/img/language.svg);
+}
+.ref_icon::before {
+    background-image: url(../assets/img/Reference.svg);
+}
+
+/* .course_icon::before {
+    content: "";
+    margin-right: 8px;
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-image: url(../assets/img/Course.svg);
+} */
+
+/* --------------------------------- */
+
+.dsn1_box{
+    position: fixed !important;
+    top:0;
+    bottom: 0%;
+    left:50%;
+    right: 0%;
+
+}
